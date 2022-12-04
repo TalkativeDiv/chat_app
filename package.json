@@ -1,0 +1,23 @@
+{
+  "name": "chit-chap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Abhirath Agasanakoppa",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "less-express": "^1.1.0",
+    "moment": "^2.29.4",
+    "mustache": "^4.2.0",
+    "mustache-express": "^1.3.2",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
