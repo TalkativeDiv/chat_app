@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
 app.get('/chat', (req, res) => {
   res.render('chat');
 });
-app.get('/css/styles.css', lessExpr ss('./public/less/style.less'));
+app.get('/css/styles.css', lessExpress('./public/less/style.less'));
 app.get('/js/script.js', (req, res) => {
   res.status(200).sendFile(path.join(__dirname, 'public', 'js', 'script.js'));
 });
